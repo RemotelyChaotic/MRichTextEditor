@@ -33,6 +33,7 @@
 #include <QWidget>
 #include <memory>
 
+class MTextEdit;
 namespace Ui
 {
   class MRichTextEdit;
@@ -50,16 +51,17 @@ class MRichTextEdit : public QWidget {
     QString toHtml() const;
     QTextDocument *document();
     QTextCursor    textCursor() const;
+    MTextEdit*     textEdit() const;
     void           setTextCursor(const QTextCursor& cursor);
 
 
   public slots:
     void setText(const QString &text);
     void clearSource();
-
-  protected slots:
     void setPlainText(const QString &text);
     void setHtml(const QString &text);
+    void setPlaceholderText(const QString &text);
+    void setReadOnly(bool bReadOnly);
     void textRemoveFormat();
     void textRemoveAllFormat();
     void textBold();

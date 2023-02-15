@@ -222,6 +222,8 @@ void MRichTextEdit::clearSource(){
 
 void MRichTextEdit::setPlainText(const QString &text) { m_spUi->f_textedit->setPlainText(text); }
 void MRichTextEdit::setHtml(const QString &text)      { m_spUi->f_textedit->setHtml(text); }
+void MRichTextEdit::setPlaceholderText(const QString &text) { m_spUi->f_textedit->setPlaceholderText(text); }
+void MRichTextEdit::setReadOnly(bool bReadOnly) { m_spUi->f_textedit->setReadOnly(bReadOnly); }
 
 void MRichTextEdit::textRemoveFormat() {
     QTextCharFormat fmt;
@@ -563,6 +565,7 @@ QString MRichTextEdit::toHtml() const {
 
 QTextDocument *MRichTextEdit::document() { return m_spUi->f_textedit->document(); }
 QTextCursor    MRichTextEdit::textCursor() const { return m_spUi->f_textedit->textCursor(); }
+MTextEdit*     MRichTextEdit::textEdit() const { return m_spUi->f_textedit; }
 void           MRichTextEdit::setTextCursor(const QTextCursor& cursor) { m_spUi->f_textedit->setTextCursor(cursor); }
 
 void MRichTextEdit::increaseIndentation() {
