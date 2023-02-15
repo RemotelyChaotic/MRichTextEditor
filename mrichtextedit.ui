@@ -78,13 +78,9 @@
         <property name="toolTip">
          <string>Undo (CTRL+Z)</string>
         </property>
-        <property name="text">
-         <string>Undo</string>
-        </property>
         <property name="icon">
          <iconset theme="edit-undo">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -105,13 +101,9 @@
         <property name="toolTip">
          <string>Redo</string>
         </property>
-        <property name="text">
-         <string>Redo</string>
-        </property>
         <property name="icon">
          <iconset theme="edit-redo">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -129,13 +121,9 @@
         <property name="toolTip">
          <string>Cut (CTRL+X)</string>
         </property>
-        <property name="text">
-         <string>Cut</string>
-        </property>
         <property name="icon">
          <iconset theme="edit-cut">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -153,13 +141,9 @@
         <property name="toolTip">
          <string>Copy (CTRL+C)</string>
         </property>
-        <property name="text">
-         <string>Copy</string>
-        </property>
         <property name="icon">
          <iconset theme="edit-copy">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -177,13 +161,9 @@
         <property name="toolTip">
          <string>Paste (CTRL+V)</string>
         </property>
-        <property name="text">
-         <string>Paste</string>
-        </property>
         <property name="icon">
          <iconset theme="edit-paste">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -208,13 +188,9 @@
         <property name="toolTip">
          <string>Link (CTRL+L)</string>
         </property>
-        <property name="text">
-         <string>Link</string>
-        </property>
         <property name="icon">
          <iconset theme="applications-internet">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -242,13 +218,9 @@
         <property name="toolTip">
          <string notr="true">Bold (CTRL+B)</string>
         </property>
-        <property name="text">
-         <string>Bold</string>
-        </property>
         <property name="icon">
          <iconset theme="format-text-bold">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -269,13 +241,9 @@
         <property name="toolTip">
          <string>Italic (CTRL+I)</string>
         </property>
-        <property name="text">
-         <string>Italic</string>
-        </property>
         <property name="icon">
          <iconset theme="format-text-italic">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -296,13 +264,9 @@
         <property name="toolTip">
          <string>Underline (CTRL+U)</string>
         </property>
-        <property name="text">
-         <string>Underline</string>
-        </property>
         <property name="icon">
          <iconset theme="format-text-underline">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -317,9 +281,6 @@
       </item>
       <item>
        <widget class="QToolButton" name="f_strikeout">
-        <property name="text">
-         <string>Strike Out</string>
-        </property>
         <property name="checkable">
          <bool>true</bool>
         </property>
@@ -340,9 +301,6 @@
         <property name="toolTip">
          <string>Bullet list (CTRL+-)</string>
         </property>
-        <property name="text">
-         <string>Bullet list</string>
-        </property>
         <property name="iconSize">
          <size>
           <width>16</width>
@@ -361,9 +319,6 @@
         </property>
         <property name="toolTip">
          <string>Ordered list (CTRL+=)</string>
-        </property>
-        <property name="text">
-         <string>Ordered list</string>
         </property>
         <property name="iconSize">
          <size>
@@ -384,13 +339,9 @@
         <property name="toolTip">
          <string>Decrease indentation (CTRL+,)</string>
         </property>
-        <property name="text">
-         <string>Decrease indentation</string>
-        </property>
         <property name="icon">
          <iconset theme="format-indent-less">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -408,13 +359,9 @@
         <property name="toolTip">
          <string>Increase indentation (CTRL+.)</string>
         </property>
-        <property name="text">
-         <string>Increase indentation</string>
-        </property>
         <property name="icon">
          <iconset theme="format-indent-more">
-          <normaloff/>
-         </iconset>
+          <normaloff>C:/Users/Daniel Fabian/.designer/backup</normaloff>C:/Users/Daniel Fabian/.designer/backup</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -433,26 +380,11 @@
       </item>
       <item>
        <widget class="QToolButton" name="f_fgcolor">
-        <property name="minimumSize">
-         <size>
-          <width>16</width>
-          <height>16</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16</width>
-          <height>16</height>
-         </size>
-        </property>
         <property name="focusPolicy">
          <enum>Qt::ClickFocus</enum>
         </property>
         <property name="toolTip">
          <string>Text foreground color</string>
-        </property>
-        <property name="text">
-         <string>.</string>
         </property>
         <property name="iconSize">
          <size>
@@ -464,26 +396,11 @@
       </item>
       <item>
        <widget class="QToolButton" name="f_bgcolor">
-        <property name="minimumSize">
-         <size>
-          <width>16</width>
-          <height>16</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16</width>
-          <height>16</height>
-         </size>
-        </property>
         <property name="focusPolicy">
          <enum>Qt::ClickFocus</enum>
         </property>
         <property name="toolTip">
          <string>Text background color</string>
-        </property>
-        <property name="text">
-         <string>.</string>
         </property>
         <property name="iconSize">
          <size>
@@ -514,11 +431,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QToolButton" name="f_image">
-        <property name="text">
-         <string notr="true">...</string>
-        </property>
-       </widget>
+       <widget class="QToolButton" name="f_image"/>
       </item>
       <item>
        <spacer name="horizontalSpacer">
