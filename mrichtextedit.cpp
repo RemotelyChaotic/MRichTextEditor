@@ -200,6 +200,9 @@ MRichTextEdit::MRichTextEdit(QWidget *parent) : QWidget(parent), m_spUi(new Ui::
 }
 
 
+MRichTextEdit::~MRichTextEdit() = default;
+
+
 void MRichTextEdit::textSource() {
     QDialog *dialog = new QDialog(this);
     QPlainTextEdit *pte = new QPlainTextEdit(dialog);

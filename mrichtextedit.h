@@ -46,6 +46,7 @@ class MRichTextEdit : public QWidget {
     Q_OBJECT
   public:
     MRichTextEdit(QWidget *parent = nullptr);
+    ~MRichTextEdit() override;
 
     QString toPlainText() const;
     QString toHtml() const;
@@ -91,7 +92,7 @@ class MRichTextEdit : public QWidget {
     void bgColorChanged(const QColor &c);
     void list(bool checked, QTextListFormat::Style style);
     void indent(int delta);
-    void focusInEvent(QFocusEvent *event);
+    void focusInEvent(QFocusEvent *event) override;
 
     QStringList m_paragraphItems;
     int m_fontsize_h1;
