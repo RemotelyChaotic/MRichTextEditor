@@ -19,27 +19,38 @@
 ** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
 **
 ** $QT_END_LICENSE$
+**
+** Fixes for Qt5 and CMake By Remotely Chaotic 15.02.2023
 */
 
 #ifndef MRICHTEXTEDIT_H_
 #define MRICHTEXTEDIT_H_
 
 #include <QPointer>
-#include "ui_mrichtextedit.h"
+#include <QTextDocument>
+#include <QTextCharFormat>
+#include <QTextList>
+#include <QWidget>
+#include <memory>
+
+namespace Ui
+{
+  class MRichTextEdit;
+}
 
 /**
  * @Brief A simple rich-text editor
  */
-class MRichTextEdit : public QWidget, protected Ui::MRichTextEdit {
+class MRichTextEdit : public QWidget {
     Q_OBJECT
   public:
     MRichTextEdit(QWidget *parent = nullptr);
 
-    QString toPlainText() const { return f_textedit->toPlainText(); }
+    QString toPlainText() const;
     QString toHtml() const;
-    QTextDocument *document() { return f_textedit->document(); }
-    QTextCursor    textCursor() const { return f_textedit->textCursor(); }
-    void           setTextCursor(const QTextCursor& cursor) { f_textedit->setTextCursor(cursor); }
+    QTextDocument *document();
+    QTextCursor    textCursor() const;
+    void           setTextCursor(const QTextCursor& cursor);
 
 
   public slots:
@@ -47,8 +58,8 @@ class MRichTextEdit : public QWidget, protected Ui::MRichTextEdit {
     void clearSource();
 
   protected slots:
-    void setPlainText(const QString &text) { f_textedit->setPlainText(text); }
-    void setHtml(const QString &text)      { f_textedit->setHtml(text); }
+    void setPlainText(const QString &text);
+    void setHtml(const QString &text);
     void textRemoveFormat();
     void textRemoveAllFormat();
     void textBold();
@@ -93,6 +104,7 @@ class MRichTextEdit : public QWidget, protected Ui::MRichTextEdit {
                           ParagraphHeading4,
                           ParagraphMonospace };
 
+    std::unique_ptr<Ui::MRichTextEdit> m_spUi;
     QPointer<QTextList> m_lastBlockList;
 };
 
