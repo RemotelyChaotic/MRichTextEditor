@@ -17,3 +17,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC
     $<TARGET_PROPERTY:Qt5::Core,INTERFACE_INCLUDE_DIRECTORIES>
     $<TARGET_PROPERTY:Qt5::Widgets,INTERFACE_INCLUDE_DIRECTORIES>
 )
+if (UNIX AND NOT APPLE)
+  target_compile_options(${PROJECT_NAME} PUBLIC -fPIC)
+endif()
